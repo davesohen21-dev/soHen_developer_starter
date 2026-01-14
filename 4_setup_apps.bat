@@ -1,3 +1,13 @@
+
+
+if not exist "c:\development\nolische\_projects\open_demo" (
+  git clone git@github.com:Nolische/open_demo.git "c:\development\nolische\_projects\open_demo"
+)
+
+if not exist "c:\development\nolische\_projects\gs_enterprise_launch_pad" (
+  git clone git@github.com:GSEnterprise/gs_enterprise_launch_pad.git "c:\development\nolische\_projects\gs_enterprise_launch_pad"
+)
+
 if not exist "c:\development\nolische\_clients\sohen_project_zukiskitchen" (
   git clone git@github.com:soHen-Research/sohen_project_zukiskitchen.git "c:\development\nolische\_clients\sohen_project_zukiskitchen"
 )
