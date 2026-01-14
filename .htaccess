@@ -25,7 +25,7 @@ RewriteRule ^site\/(.*) site/$1 [L]
 RewriteRule ^gs_artifacts\/(.*) gs_artifacts/$1 [L]
 RewriteRule ^site_resources\/(.*) site_resources/$1 [L]
 RewriteRule ^assets\/(.*) assets/$1 [L]
-RewriteRule ^(.*)\.(png|gif|jpg|jpeg|js|env|json|css|svg|eot|ttf|woff|otf|ico)$ build/$1.$2 [NC,L,END]
+RewriteRule ^(.*)\.(png|gif|jpg|jpeg|js|env|json|css|svg|eot|ttf|woff|otf|ico|webp)$ build/$1.$2 [NC,L,END]
 RewriteRule ^ build/index.php [QSA,L]
 
 Options -MultiViews
