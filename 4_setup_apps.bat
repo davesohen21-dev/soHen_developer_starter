@@ -1,0 +1,1 @@
+runas /user:localadmin "powershell.exe -Command Start-Process c:\soHen_developer_starter\admin_scripts\setup_apps.bat -Verb RunAs"
