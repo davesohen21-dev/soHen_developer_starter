@@ -1,11 +1,11 @@
-mkdir -p c:\node
-mkdir -p c:\development\nolische\_base
-mkdir -p c:\development\nolische\_branches
-mkdir -p c:\development\nolische\_clients
-mkdir -p c:\development\nolische\_family
-mkdir -p c:\development\nolische\_subsidiaries
-mkdir -p c:\development\work
-mkdir -p c:\development\local_hosting_htdocs
+mkdir c:\node
+mkdir c:\development\nolische\_base
+mkdir c:\development\nolische\_branches
+mkdir c:\development\nolische\_clients
+mkdir c:\development\nolische\_family
+mkdir c:\development\nolische\_subsidiaries
+mkdir c:\development\work
+mkdir c:\development\local_hosting_htdocs
 
 
 
@@ -31,7 +31,7 @@ if not exist "C:/node/node_10_dependency_repo_b5c/node_modules" (
 
 echo "Xampp support"
 if not exist "C:\development\local_hosting_htdocs" (
-  mkdir -p "C:\development\local_hosting_htdocs"
+  mkdir "C:\development\local_hosting_htdocs"
 )
 
 
