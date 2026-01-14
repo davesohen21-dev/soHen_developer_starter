@@ -29,9 +29,9 @@ if not exist "C:\development\local_hosting_htdocs\services\gemeinsam_notificatio
 )
 
 if not exist "C:\development\local_hosting_htdocs\services\gemeinsam_orders_api" (
-  git clone git@github.com:Nolische/gemeinsam_orders_api.git "C:\development\local_hosting_htdocs\services\gemeinsam_cms_api"
+  git clone git@github.com:Nolische/gemeinsam_orders_api.git "C:\development\local_hosting_htdocs\services\gemeinsam_orders_api"
 )
 
 if not exist "C:\development\local_hosting_htdocs\services\gemeinsam_payments_api" (
-  git clone git@github.com:Nolische/gemeinsam_cms_api.git "C:\development\local_hosting_htdocs\services\gemeinsam_orders_api"
+  git clone git@github.com:Nolische/gemeinsam_payments_api.git "C:\development\local_hosting_htdocs\services\gemeinsam_payments_api"
 )
