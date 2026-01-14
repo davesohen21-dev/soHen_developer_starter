@@ -5,3 +5,4 @@ del C:\xampp\apache\conf\httpd.conf
 mklink C:\xampp\apache\conf\httpd.conf C:\development\local_web_dev_sites\apache_config\httpd.conf
 
 mklink /D C:\xampp\local_sites C:\development\local_web_dev_sites\local_sites
+mklink /D C:\xampp\htdocs C:\development\local_hosting_htdocs

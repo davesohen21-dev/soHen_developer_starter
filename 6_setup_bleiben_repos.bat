@@ -7,6 +7,13 @@ if not exist "C:\development\local_hosting_htdocs\app_bleiben" (
 echo "Setup bleiben services"
 mkdir C:\development\local_hosting_htdocs\services
 
+if not exist "C:\development\local_hosting_htdocs\services\access_generic_push_notification_service" (
+  git clone git@github.com:N21CoMT/access_generic_push_notification_service.git "C:\development\local_hosting_htdocs\services\access_generic_push_notification_service"
+)
+
+if not exist "C:\development\local_hosting_htdocs\services\access_generic_token_service" (
+  git clone git@github.com:N21CoMT/access_generic_token_service.git "C:\development\local_hosting_htdocs\services\access_generic_token_service"
+)
 
 if not exist "C:\development\local_hosting_htdocs\services\gemeinsam_access_api" (
   git clone git@github.com:Nolische/gemeinsam_access_api.git "C:\development\local_hosting_htdocs\services\gemeinsam_access_api"
