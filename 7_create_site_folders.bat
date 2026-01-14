@@ -10,6 +10,7 @@ for %%d in (
     _site_ingenious_projects
     _site_intelozenge
     _site_ivyskitchen
+    _site_zukiskitchen
     _site_jovie
     _site_ladieshaven
     _site_mphoachaar
