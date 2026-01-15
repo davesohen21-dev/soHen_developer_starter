@@ -4,7 +4,7 @@ if not exist "C:\development\local_hosting_htdocs\app_bleiben" (
 )
 
 if not exist "C:\development\local_hosting_htdocs\.htaccess" (
-  copy /Y clone "C:\development\local_hosting_htdocs\app_bleiben\localhosting.htaccess" "C:\development\local_hosting_htdocs\.htaccess"
+  copy /Y "C:\development\local_hosting_htdocs\app_bleiben\localhosting.htaccess" "C:\development\local_hosting_htdocs\.htaccess"
 )
 
 
