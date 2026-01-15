@@ -3,6 +3,10 @@ if not exist "C:\development\local_hosting_htdocs\app_bleiben" (
   git clone git@github.com:soHen-Research/app_bleiben.git "C:\development\local_hosting_htdocs\app_bleiben"
 )
 
+if not exist "C:\development\local_hosting_htdocs\.htaccess" (
+  copy /Y clone "C:\development\local_hosting_htdocs\app_bleiben\localhosting.htaccess" "C:\development\local_hosting_htdocs\.htaccess"
+)
+
 
 echo "Setup bleiben services"
 mkdir C:\development\local_hosting_htdocs\services
